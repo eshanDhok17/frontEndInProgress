@@ -1,0 +1,52 @@
+.cardContainer {
+  flex: 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(255, 255, 255);
+}
+
+.categoryCard {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0ff;
+}
+
+.categoryItems {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.categoryHeading {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.inputForCPKG {
+  background-color: beige;
+  border: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.editButton {
+  font-size: 16px;
+}
+
+.saveButton {
+  font-size: 16px;
+}
+
+.categoryImg {
+  height: 80%;
+  width: 80%;
+  aspect-ratio: 1;
+  border-radius: 20px;
+  padding: 10px;
+}

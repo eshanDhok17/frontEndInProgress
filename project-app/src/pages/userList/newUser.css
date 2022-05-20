@@ -1,0 +1,39 @@
+.newUser-main {
+  flex: 4;
+}
+
+.form-main {
+  display: flex;
+  padding-left: 40px;
+  justify-content: start;
+}
+
+.formInner {
+  background-color: rgb(240, 240, 255);
+  border-radius: 36px;
+  padding: 60px;
+}
+.heading {
+  font-size: 28px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.formGroup {
+  border-radius: 10px;
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.submitButton {
+  border-radius: 10px;
+  font-size: 20px;
+  border-color: bisque;
+}
+
+.inputSpace:hover {
+  background-color: beige;
+  transition: 0.3s;
+}

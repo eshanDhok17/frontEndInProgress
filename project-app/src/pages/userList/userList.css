@@ -1,0 +1,51 @@
+.userList {
+  padding: 10px;
+  flex: 4;
+}
+.UserNameHeader {
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.newUser {
+  font-size: 30px;
+  border: 0;
+  border-radius: 10px;
+}
+.newUser-font {
+  font-size: 15px;
+  border-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.userListEdit {
+  border: 0;
+  padding: 5px 7px;
+  border-radius: 10px;
+  margin-left: 21px;
+  margin-right: 5px;
+  color: white;
+  background-color: green;
+}
+
+.userListDelete {
+  border: 0;
+  background-color: rgba(255, 0, 0, 0.911);
+  color: white;
+  padding: 5px 7px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.MuiDataGrid-cellContent {
+  font-size: 15px;
+}
+
+.MuiDataGrid-columnHeaderTitle.css-1jbbcbn-MuiDataGrid-columnHeaderTitle {
+  font-size: 18px;
+}
